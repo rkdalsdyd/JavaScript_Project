@@ -1,0 +1,24 @@
+@charset 'UTF-8';
+@import './reset.css';
+@import './header.css';
+@import './book-data.css';
+@import './book-list.css';
+@import './alert.css';
+
+/* CSS variables */
+:root {
+    --basic-blue: #2196f3;
+}
+
+
+/* 전체 레이아웃 */
+body {}
+#wrapper {}
+
+
+/* 컨테이너 레이아웃 */
+.container {width: 85vw; margin: 30px auto;}
+
+
+
+

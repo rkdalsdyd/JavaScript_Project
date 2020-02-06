@@ -1,0 +1,44 @@
+/* book-list-full 레이아웃 */
+#book-list {}
+
+/* book-list-container 레이아웃 */
+.book-list {}
+
+.book-list .table-header li, .book-list .table-row li {
+    float: left;
+}
+.book-list .table-header li:nth-child(1), .book-list .table-row li:nth-child(1) {width: 30%;}
+.book-list .table-header li:nth-child(2), .book-list .table-row li:nth-child(2) {width: 40%;}
+.book-list .table-header li:nth-child(3), .book-list .table-row li:nth-child(3) {width: 30%;}
+
+.book-list .table-header {
+    padding: 15px 10px;
+    background-color: #f8f8f8;
+    border-top: 2px solid #e4e4e4;
+    border-bottom: 2px solid #e4e4e4;
+    font-weight: 500; font-size: 0.9rem;
+}
+
+.book-list .table-body>li:nth-child(2n) {
+    background-color: #f8f8f8;
+}
+
+.book-list .table-row {
+    position: relative;
+    padding: 10px 10px;
+    border-bottom: 1px solid #ebebeb;
+    font-size: 0.8rem;
+}
+.book-list .table-row .text {
+    display: inline-block;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    width: 80%;
+}
+.book-list .table-row .delete {
+    position: absolute; top: 6px; right: 3px;
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+    text-align: right;
+    color: #f32013;
+}

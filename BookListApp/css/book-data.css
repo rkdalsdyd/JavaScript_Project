@@ -1,0 +1,26 @@
+/* book-data-full 레이아웃 */
+#book-data {}
+#book-data .container {margin-top: 0;}
+
+/* book-data-container 레이아웃 */
+.book-data {}
+.book-data #getBookData {}
+.book-data #getBookData label {
+    display: block;
+    padding-bottom: 5px;
+}
+.book-data #getBookData input {
+    display: block;
+    width: 100%; height: 35px;
+    margin-bottom: 15px;
+    border: 1px solid #cdcdcd;
+
+    font-size: 1rem;
+}
+.book-data #getBookData button {
+    display: block;
+    width: 100%; height: 35px;
+    background-color: #1565c0;
+    border-radius: 10px;
+    font-size: 1rem; color: white;
+}

@@ -1,0 +1,17 @@
+/* header-full 레이아웃 */
+#header {}
+#header .container {margin-bottom: 0;}
+
+/* header-container 레이아웃 */
+.header {}
+.header h1 {
+    text-align: center;
+    font-size: 40px;
+}
+.header h1 a {
+    display: inline-block; padding-right: 10px;
+    color: var(--basic-blue);
+}
+.header h1 span {
+    color: var(--basic-blue);
+}

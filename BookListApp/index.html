@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="MignonWeb">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Book List</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Web fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/bc7f9e28ef.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- header -->
+        <header id="header">
+            <div class="container">
+                <div class="header">
+                    <h1>
+                        <a href="#" class="header-logo" title="MyBookList"><i class="fas fa-book-open"></i></a>
+                        My<span class="blue">Book</span>List
+                    </h1>
+                </div>
+            </div>
+        </header>
+        <!-- //header -->
+
+        <!-- Alert -->
+        <article id="alert">
+            <div class="container">
+                <div class="alert">
+                    <h2></h2>
+                </div>
+            </div>
+        </article>
+        <!-- //Alert -->
+
+        <!-- main -->
+        <main>
+            <!-- book-data -->
+            <section id="book-data">
+                <div class="container">
+                    <div class="book-data">
+                        <form id="getBookData">
+                            <fieldset>
+                                <legend class="ir_so">Get Book Data</legend>
+                                <label for="bookTitle">Title</label>
+                                <input type="text" name="title" id="bookTitle">
+
+                                <label>Author</label>
+                                <input type="text" name="author" id="bookAuthor">
+
+                                <label>ISBN#</label>
+                                <input type="text" name="ISBN" id="bookISBN">
+                                
+                                <label class="ir_so">Submit</label>
+                                <button type="submit">Submit</button>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!-- book-data -->
+
+            <!-- book-list -->
+            <section id="book-list">
+                <div class="container">
+                    <div class="book-list">
+                        <ul class="table-header clearfix">
+                            <li>Title</li>
+                            <li>Author</li>
+                            <li>ISBN</li>
+                        </ul>
+                        <ul class="table-body">
+                            <!-- 
+                            <li>
+                                <ul class="table-row clearfix">
+                                    <li>Cimax</li>
+                                    <li>Cimax</li>
+                                    <li><span class="text">Cimax</span><span class="delete"><i class="fas fa-minus-circle"></i></span></li>
+                                </ul>
+                            </li> 
+                            -->
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- //book-list -->
+        </main>
+        <!-- //main -->
+
+        <script src="./js/index.js"></script>
+    </div>
+</body>
+</html>
